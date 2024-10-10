@@ -1,0 +1,79 @@
+# 11111111111111111111111111111111111111111111111111111111111111111
+# shaxslar = [
+#     {
+#         'ism': 'Abu Abdulloh Muhammad Ibn Ismoil',
+#         'tavallud_yil': 810,
+#         'joylashuvi': 'Buxoro',
+#         'umur': 60
+#     },
+#     {
+#         'ism': 'Abdulla Qodiriy',
+#         'tavallud_yil': 1894,
+#         'joylashuvi': 'Toshkent',
+#         'umur': 44
+#     },
+#     {
+#         'ism': 'Erkin Vohidov',
+#         'tavallud_yil': 1936,
+#         'joylashuvi': 'Fargʻona',
+#         'umur': 80
+#     },
+#     {
+#         'ism': 'Alisher Navoiy',
+#         'tavallud_yil': 1441,
+#         'joylashuvi': 'Xirot',
+#         'umur': 60
+#     }
+# ]
+# for shaxs in shaxslar:
+#     print(f"{shaxs['ism']} {shaxs['tavallud_yil']}-yil {shaxs['joylashuvi']}da tavallud topgan. {shaxs['umur']}-yil umr ko'rgan.")
+#
+
+# 2222222222222222222222222222222222222222222222222222222222222222222222
+# shaxslar = [
+#     {
+#         'ism': 'Abu Abdulloh Muhammad Ibn Ismoil',
+#         'tavallud_yil': 810,
+#         'joylashuvi': 'Buxoro',
+#         'umur': 60,
+#         'asarlar': ['Al-jomi', 'As-sahih', 'Al-adab', 'Al-mufrad']
+#     },
+#     {
+#         'ism': 'Abdulla Qodiriy',
+#         'tavallud_yil': 1894,
+#         'joylashuvi': 'Toshkent',
+#         'umur': 44,
+#         'asarlar': ['O\'tgan kunlar', 'Mehrobdan chayon', 'Obid ketmon']
+#     },
+#     {
+#         'ism': 'Erkin Vohidov',
+#         'tavallud_yil': 1936,
+#         'joylashuvi': 'Fargʻona',
+#         'umur': 80,
+#         'asarlar':['Tong nafasi', 'Qo\'shiqlarim sizga', 'O\'zbegim', 'Qiziquvchan Matmusa']
+#     },
+#     {
+#         'ism': 'Alisher Navoiy',
+#         'tavallud_yil': 1441,
+#         'joylashuvi': 'Xirot',
+#         'umur': 60,
+#         'asarlar': ['Xamsa', 'Lison ut-Tayr', 'Mahbub Al-Qulub']
+#     }
+# ]
+
+# for shaxs in shaxslar:
+#     print(f"{shaxs['ism']} {shaxs['tavallud_yil']}-yil {shaxs['joylashuvi']}da tavallud topgan. {shaxs['umur']}-yil umr ko'rgan.")
+#     print("Mashhur asarlari:")
+#     for asar in shaxs['asarlar']:
+#         print(f"- {asar}")
+# 3333333333333333333333333333333333333333333
+# sevimli_serialar = {
+#     "ali": ["Terminator", "Ramo", "Titanic"],
+#     "vali": ["Tenet", "Inception", "Interstellar"],
+#     "hasan": ["Abdullajon", "Bomba", "Shaytanat"],
+#     "husan": ["Mahallada duv duv gap", "John wick"],
+# }
+# for odam, seriallar in sevimli_serialar.items():
+#     print(f"{odam} ning sevimli serialari:")
+#     for serial in seriallar:
+#         print(serial)
