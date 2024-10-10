@@ -1,0 +1,77 @@
+# 1. Izohli lug'atni yaratish
+izohli_lugat = {
+    "O'zbekiston": "Markaziy Osiyoda joylashgan mamlakat",
+    "Python": "Dasturlash tili",
+    "Kompyuter": "Ma'lumotlarni qayta ishlash uchun qurilma",
+    "Algoritm": "Muammoni hal qilish uchun qadamlar ketma-ketligi",
+    "Funktsiya": "Ma'lum bir vazifani bajaruvchi kod bloki",
+    "OOP": "Ob'ektga yo'naltirilgan dasturlash",
+    "O'zgaruvchi": "Ma'lumotni saqlash uchun nomlangan joy",
+    "Klass": "OOP da ob'ektlarning shabloni",
+    "Modul": "Dasturda qo'shimcha funksiyalarni taqdim etuvchi fayl",
+    "Lug'at": "Kalit-qiymat juftliklaridan iborat ma'lumotlar tuzilmasi"
+}
+
+# Izohli lug'atni alifbo tartibida chiqarish
+print("Izohli lug'at:")
+for kalit in sorted(izohli_lugat.keys()):
+    print(f"{kalit}: {izohli_lugat[kalit]}")
+
+# 2. Davlatlar va ularning poytaxtlari lug'atini tuzish
+poytaxtlar = {
+    "O'zbekiston": "Toshkent",
+    "AQSh": "Vashington",
+    "Rossiya": "Moskvada",
+    "Xitoy": "Pekin",
+    "Fransiya": "Parij",
+    "Germaniya": "Berlinga",
+    "Hindiston": "Nyu-Deli",
+    "Turkiya": "Anqara",
+    "Italiya": "Roma",
+    "Braziliya": "Braziliya"
+}
+
+# Davlatlarni chiqarish
+print("\nDavlatlar:")
+for davlat in sorted(poytaxtlar.keys()):
+    print(davlat)
+
+# Poytaxtlarni chiqarish
+print("\nPoytaxtlar:")
+for poytaxt in sorted(poytaxtlar.values()):
+    print(poytaxt)
+
+# Foydalanuvchidan davlatni so'rash
+davlat_input = input("\nIltimos, davlat nomini kiriting: ")
+if davlat_input in poytaxtlar:
+    print(f"{davlat_input} poytaxti: {poytaxtlar[davlat_input]}")
+else:
+    print("Bizda bunday ma'lumot yo'q")
+
+# 3. Restoran menyusi lug'atini tuzish
+menu = {
+    "Pizza": 12000,
+    "Sushi": 15000,
+    "Burger": 10000,
+    "Pasta": 8000,
+    "Salat": 6000,
+    "Chips": 4000,
+    "Kola": 2000,
+    "Tort": 3000,
+    "Biryani": 14000,
+    "Shashlik": 16000
+}
+
+# Foydalanuvchidan buyurtma so'rash
+buyurtmalar = []
+for i in range(3):
+    taom = input(f"{i+1}-taomni kiriting: ")
+    buyurtmalar.append(taom)
+
+# Buyurtmalarni tekshirish
+print("\nBuyurtma natijalari:")
+for taom in buyurtmalar:
+    if taom in menu:
+        print(f"{taom} narhi: {menu[taom]} so'm")
+    else:
+        print(f"{taom}: bizda bunday taom yo'q")
