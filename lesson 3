@@ -1,0 +1,17 @@
+1111111111111111ismlar=['Jasurbek','Husanboy','Mo\'imjon','Hasanboy','Sulaymon']
+222222222222222
+n=0
+for ism in ismlar:
+    print(ism+"to'yga keling")
+    n+=1
+print(n)
+33333333333333333333333333
+toq_sonlar = list(range(11, 101, 2))
+for son in toq_sonlar:
+    print(f"{son} ning kubi: {son ** 3}")
+Bu kod ishlatilganda:
+44444444444444444444,kino=[]
+print(input("5 ta sevimli kino?"))
+for n in range(5):
+    kino.append(input(f"{n+1} qaysi>>"))
+print(kino)
