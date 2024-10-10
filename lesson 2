@@ -1,0 +1,52 @@
+# 1 Ismlar ro'yxati
+ismlar = ["Jasur", "Anvar", "Bekzod"]
+
+for ism in ismlar:
+    print(f"Salom, {ism}! Ishlaring yaxshimi?")
+
+
+# 2 Sonlar ro'yxati
+sonlar = [5, -3, 8.5, -2.4, 0]
+
+yigindi = sonlar[0] + sonlar[1]
+ko'paytma = sonlar[2] * sonlar[3]
+ayirma = sonlar[2] - sonlar[4]
+
+print(f"Yig'indi: {yigindi}")
+print(f"Ko'paytma: {ko'paytma}")
+print(f"Ayirma: {ayirma}")
+
+sonlar[0] = 10
+sonlar[2] = 12.3
+
+print(f"Yangi sonlar ro'yxati: {sonlar}")
+
+
+#  3 Tarixiy va zamonaviy shaxslar ro'yxati
+t_shaxslar = ["Amir Temur", "Ibn Sino", "Napoleon"]
+z_shaxslar = ["Elon Musk", "Bill Gates", "Barack Obama"]
+
+tarixiy_shaxs = t_shaxslar.pop()
+zamonaviy_shaxs = z_shaxslar.pop()
+
+print(f"Tarixiy shaxs: {tarixiy_shaxs}")
+print(f"Zamonaviy shaxs: {zamonaviy_shaxs}")
+
+
+#  4 Bo'sh ro'yxat tuzish
+friends = []
+
+friends.append("Jasur")
+friends.append("Anvar")
+friends.append("Bekzod")
+friends.append("Ali")
+friends.append("Olim")
+
+friends.remove("Bekzod")
+friends.remove("Olim")
+
+friends.insert(0, "Aziz")
+friends.append("Dilmurod")
+friends.insert(2, "Rustam")
+
+print(f"Yangi mehmonlar ro'yxati: {friends}")
