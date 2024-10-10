@@ -1,0 +1,112 @@
+# 1. Cars ro'yxati
+cars = [
+cars = 
+
+ca
+'toyota', 'mazda', 'hyundai', 'gm', 'kia']
+
+# Elementlarning birinchi harfini katta qilish va GM uchun ikkala harfni katta qilish
+for car in cars:
+    if car != 'gm':  # 'gm' emasligini tekshiramiz
+        print(car.capitalize())  # Birinchi harfini katta qilib chiqaramiz
+    else:
+        
+        pr
+
+   
+print(car.upper())  # 'gm' ni katta harflar bilan chiqaramiz
+
+# 2. Foydalanuvchi loginini so'rash
+user_login = 
+user_login = inpu
+
+us
+input("Login ismingizni kiriting: ")
+
+if user_login != 'admin':  # agar login admin emas bo'lsa
+    
+    prin
+print(f"Xush kelibsiz, {user_login}!")  # Foydalanuvchi ismini chiqaramiz
+else:
+    
+    pr
+
+   
+print("Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?")  # Admin uchun xabar
+
+# 3. Ikki son kiritish va tenglikni tekshirish
+num1 = float(input("Birinchi sonni kiriting: "))
+num2 = 
+nu
+float(input("Ikkinchi sonni kiriting: "))
+
+if num1 != num2:  # agar sonlar teng emas bo'lsa
+    
+    pri
+
+  
+print("Sonlar teng emas.")  # Teng emasligi haqida xabar chiqaramiz
+
+e
+else:
+    
+    pri
+
+ 
+print("Sonlar teng.")  # Tengligini tekshiramiz
+
+# 4. Istalgan sonni kiritish va musbat/manfiyligini tekshirish
+number = 
+number = flo
+
+number
+
+n
+float(input("Istalgan sonni kiriting: "))
+
+if number < 0:  # Manfiy son
+    
+    pr
+
+  
+print("Manfiy son")  
+
+eli
+elif number > 0:  # Musbat son
+    
+    pri
+
+   
+print("Musbat son")  
+
+# 5. Ildiz hisoblash
+number_for_sqrt = 
+number_for_sqrt =
+
+number_for_s
+
+number_for
+
+number
+float(input("Sonni kiriting (ildizini hisoblash uchun): "))
+
+if number_for_sqrt < 0:  # Manfiy son
+    print("Musbat son kiriting")  
+else:  # Musbat son
+    
+    i
+import math  # Matematik funksiyalarni chaqirish
+    sqrt_value = math.sqrt(number_for_sqrt)  
+    sqrt_value = math.sqrt(number_for_sqrt)  
+
+    sqrt_value = math.sqrt(number_for_sq
+
+    sqrt_value = math.sqrt(number_
+
+    sqrt_value = math.sqrt(nu
+
+    sqrt_value =
+
+    sqrt_v
+# Ildizini hisoblash
+    print(f"Ildiz: {sqrt_value}")  # Ildizni chiqaramiz
