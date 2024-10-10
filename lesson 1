@@ -1,0 +1,26 @@
+# O'zgaruvchilarni yaratish
+kocha = "Bog'bon"
+mahalla = "Sog'bon"
+tuman = "Bodomzor"
+viloyat = "Samarqand"
+
+  # Jamlangan o'zgaruvchilarni konsolga chiqarish
+print(f"{kocha} ko'chasi,\n{mahalla} mahallasi,\n{tuman} tumani,\n{viloyat} viloyati")
+
+ # Foydalanuvchidan ma'lumotlarni so'rash
+kocha = input("Ko'chani kiriting: ")
+mahalla = input("Mahallani kiriting: ")
+tuman = input("Tumaningizni kiriting: ")
+viloyat = input("Viloyatingizni kiriting: ")
+
+ # Yangi qiymatlarni jamlab konsolga chiqarish
+print(f"{kocha} ko'chasi,\n{mahalla} mahallasi,\n{tuman} tumani,\n{viloyat} viloyati")
+
+# Manzil o'zgaruvchisini yaratish
+manzil = f"{kocha} ko'chasi, {mahalla} mahallasi, {tuman} tumani, {viloyat} viloyati"
+
+# Turli metodlarni qo'llash
+print(manzil.title())
+print(manzil.upper())
+print(manzil.lower())
+print(manzil.capitalize())
