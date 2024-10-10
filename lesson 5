@@ -1,0 +1,49 @@
+11111111111111111111111111
+# son=int(input('Juftson kiriting?>>>'))
+# if son%2==0:
+#     print('Rahmat')
+# else:
+#     print('Uzur bu son juft emas')
+# 222222222222222222222222222222
+# yosh=int(input('Yoshongizni kiriting?>>'))
+# if yosh<=4:
+#     print('Sizga bepul')
+# elif yosh<=18:
+#     print('Sizdan 10000 so\'m')
+# elif yosh<60:
+#     print('Sizdan 20000 so\'m')
+# else:
+#     print('Sizga bepul')
+#333333333333333333333333333333333333333
+# son_1=float(input('Son kiriting >>'))
+# son_2=float(input('Son kiriting >>'))
+# if son_1==son_2:
+#     print('Bu sonlar teng')
+# elif son_1>=son_2:
+#     print(f"Bu {son_1} ,bu {son_2} dan katta")
+# else:
+#     print((f"Bu {son_2},bu {son_1} dan katta"))
+# 44444444444444444444444444444444444444444
+# son_0=int(input('Son kiriting>>'))
+W
+# for son in range(2,11):
+#  if son % son_0==0:
+#     print(f"{son_0} soni {son} ga qoldiqsiz blading.")
+# 55555555555555555555555
+# otam={
+#     "ism":"Husanboy",
+#     "yil": 2005,
+#     "viloyat":"Xozaim"
+# }
+# print(f"otam ism{otam['ism']},tug'ilgan yil {otam['yil']},yashash vioyat {otam['viloyat']}")
+# 6666666666666666666666666666666
+# sevimli_taomlar = {
+#     "Ali": "osh",
+#     "Jasur": "manti",
+#     "Samar": "shashlik",
+#     "Nodira": "somsa",
+#     "Gulnora": "lag'mon"
+# }
+# print(f"Alining sevimli taomi: {sevimli_taomlar['Ali']}")
+# print(f"Jasurning sevimli taomi: {sevimli_taomlar['Jasur']}")
+# print(f"Samarning sevimli taomi: {sevimli_taomlar['Samar']}")
