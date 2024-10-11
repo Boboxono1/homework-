@@ -1,0 +1,70 @@
+# 111111111111111
+# kitoblar = []
+# while True:
+#     kitob = input("Yaxshi ko'rgan kitobingizni kiriting (to'xtatish uchun 'stop' deb yozing): ")
+#     if kitob.lower() == 'stop':
+#         break
+#     kitoblar.append(kitob)
+#
+# print("\nYaxshi ko'rgan kitoblaringiz:")
+# for kitob in kitoblar:
+#     print(kitob)
+# 22222222222222222222222222222222222222
+# while True:
+#     yosh = input("Yoshingizni kiriting (chiqish uchun 'exit' yoki 'quit' deb yozing): ")
+#
+#     if yosh.lower() in ['exit', 'quit']:
+#         print("Dasturdan chiqyapmiz.")
+#         break
+#
+#     if yosh.isdigit():  # Foydalanuvchi faqat raqam kiritganligini tekshiramiz
+#         yosh = int(yosh)
+#
+#         if yosh < 7:
+#             print("Chipta narxi: 2000 so'm")
+#         elif 7 <= yosh < 18:
+#             print("Chipta narxi: 3000 so'm")
+#         elif 18 <= yosh < 65:
+#             print("Chipta narxi: 10000 so'm")
+#         else:
+#             print("Chipta bepul")
+#     else:
+#         print("Iltimos, to'g'ri yoshni kiriting yoki 'exit'/'quit' deb yozib chiqib keting.")
+# 333333333333333333333333333333333333333
+# buyurtmalar = []
+#
+# while True:
+#     mahsulot = input("Mahsulot nomini kiriting (buyurtmani tugatish uchun 'exit' yoki 'quit' deb yozing): ")
+#
+#     if mahsulot.lower() in ['exit', 'quit']:
+#         print("Buyurtma qabul qilish tugatildi.")
+#         break
+#
+#     buyurtmalar.append(mahsulot)
+#     print(f"'{mahsulot}' buyurtmaga qo'shildi.")
+#
+# print("\nSizning buyurtmangiz:")
+# for mahsulot in buyurtmalar:
+#     print(f"- {mahsulot}")
+# 4444444444444444444444444444444444
+# mahsulotlar = {}
+#
+# while True:
+#     mahsulot = input("Mahsulot nomini kiriting (tugatish uchun 'exit' yoki 'quit' deb yozing): ")
+#
+#     if mahsulot.lower() in ['exit', 'quit']:
+#         print("Mahsulotlar kiritish tugatildi.")
+#         break
+#
+#     narx = input(f"{mahsulot} narxini kiriting: ")
+#
+#     # Kiritilgan narx raqam ekanligini tekshiramiz
+#     if narx.isdigit():
+#         mahsulotlar[mahsulot] = int(narx)  # Mahsulot va narx lug'atga qo'shildi
+#         print(f"{mahsulot} ({narx} so'm) mahsulotlar ro'yxatiga qo'shildi.")
+#     else:
+#         print("Iltimos, mahsulotning narxini raqam ko'rinishida kiriting.")
+#
+# print("\nSizning mahsulotlar ro'yxatingiz:")
+# for mahsulot, narx in mahsulotlar.items():
+#     print(f"- {mahsulot}: {narx} so'm")
