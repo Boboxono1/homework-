@@ -1,0 +1,33 @@
+"""1-misol"""
+"""Istalgancha sonlarni qabul qilib, ularning ko'paytmasini qaytaruvchi funksiya yozing."""
+
+# def kopatma(*sonlar):
+#     kop = 1
+#     for son in sonlar:
+#         kop *= son
+#     return kop
+# print(kopatma(4,2))
+
+"""2-misol"""
+"""3ta majburiy paramter qabul qilib, keyin esaIstalgancha sonlarni qabul qilib, ularning kvadratlarini ro'yhatga yozib boruvchi funkisiya tuzing."""
+
+# def kvadirat(son1,son2,son3,*sonlar):
+#     kvadir = [son1**2,son2**2,son3**2, ]
+#     for son in sonlar:
+#         kvadir.append(son**2)
+#     return  kvadir
+# print (kvadirat(3,5,2,6))
+
+
+"""3-misol"""
+"""Talabalar haqidagi ma'lumotlarini lug'at ko'rinishida qaytaruvchi funkisya yozing. Talabaning ismi va familiyasi majburiy argument, qolgan ma'lumotlar esa ixtiyoriy ko'rinishda istalgancha berilishi mumkin bo'lsin."""
+def talaba_haqida(ism, familiya, **qoshimcha_malumotlar):
+    talaba = {
+        'Ism': ism,
+        'Familiya': familiya
+        }
+    for k, q in qoshimcha_malumotlar.items():
+        talaba[k] = q
+    return talaba
+talaba = talaba_haqida('Ali', 'Valiyev', yosh=21, fakultet='Informatika', kurs=3)
+print(talaba)
