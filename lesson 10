@@ -18,7 +18,7 @@
 #     else:
 #         return f"{son} - toq son"
 # 4444444444444444444444444444
-# def kattasini_top(son1, son2):
+ def kattasini_top(son1, son2):
 #     if son1 > son2:
 #         return f"{son1} - katta son"
 #     elif son2 > son1:

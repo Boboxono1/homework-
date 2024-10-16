@@ -1,0 +1,81 @@
+"""1-misol"""
+
+"""Foydanaluvchidan ismi, familiyasi, tug'ilgan yili, tug'ilgan joyi, email manzili va telefon raqamini qabul qilib, lug'at ko'rinishida qaytaruvchi funksiya yozing. Lug'atda foydalanuvchu yoshi ham bo'lsin. Ba'zi argumentlarni kiritishni ixtiyoriy qiling (masalan, tel.raqam, el.manzil)"""
+
+
+# def shaxs(ism,familya,tug_yil,tug_joy,emil=None,tel_raqam=None,jori_yil=2024):
+#     malumot = {
+#         "ism":ism,
+#         "familya":familya,
+#         "tug_joy":tug_joy,
+#         "tug_yi":tug_yil,
+#         'email':emil,
+#         "tel_raqam":tel_raqam,
+#         "yosh":jori_yil-tug_yil
+#     }
+#     return malumot
+# shaxs1 = shaxs("husanboy","Boboxonov",2005,"xorazm")
+# shaxs2 = shaxs("hasanboy","boboxonov",2005,"xorazm")
+#
+# shaxslar = [shaxs1,shaxs2]
+# for shaxs0 in shaxslar:
+#     if  shaxs0['email']:
+#         email = shaxs0['email']
+#     else:
+#         email = "Nomalum"
+#     print(f"Ism: {shaxs0['ism']}, Familya: {shaxs0['familya']}, Email: {email}
+
+
+"""2-misol"""
+
+"""Yuqoridagi funksiyani while yordamida bir necha bor chaqiring, va mijozlar degan ro'yxatni shakllantiring. Ro'yxatdagi mijozlar haqidagi ma'lumotni konsolga chiqaring."""
+
+# def shaxs(ism,familya,tug_yil,tug_joy,emil=None,tel_raqam=None,jori_yil=2024):
+#     malumot = {
+#         "ism":ism,
+#         "familya":familya,
+#         "tug_joy":tug_joy,
+#         "tug_yi":tug_yil,
+#         'email':emil,
+#         "tel_raqam":tel_raqam,
+#         "yosh":jori_yil-tug_yil
+#     }
+#     return malumot
+# print ( "sizning malumotlar ro'yaxati")
+# mt = [ ]
+# while True:
+#     print("\nMalumotlarni kiriting? ", end='')
+#     ism = input ( "ismingizni kiritng")
+#     tug_joy = input ("Turar joyi " )
+#     tug_yil = input ( "tugilgan yil")
+#     email = input ( "emailni ")
+#     tel_raqam = input ("tel_raqam")
+#     yosh = input ( 2024-tug_yil )
+#     mt.append(shaxs(ism,tug_joy,tug_yil,tel_raqam,yosh))
+#     javob = input("yana qo'shasizmi(ha/yo'q)")
+#     if javob == "yo'q":
+#         break
+"""3-misol"""
+"""Uchta son qabul qilib, ulardan eng kattasini qaytaruvchi funksiya yozing"""
+# def eng_katta(son1,son2,son3):
+#     if son1>son2 and son3<son1:
+#         return son1
+#     if son2>son1 and son2>son3:
+#         return son2
+#     elif son3>son1 and son3>son2:
+#         return son3
+# print(eng_katta(1,2,4))
+
+"""4-misol"""
+"""Foydalanuvchidan aylaning radiusini qabul qilib olib, uning radiusini, diametrini, perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing"""
+
+# def aylana(radius):
+#     aylan = {
+#         "diometir":2*radius,
+#         "perimetir":2*3.14*radius,
+#         "yuzasi":3.14*radius*radius
+#     }
+#     return aylan
+# print(aylana(4))
+#
+#
