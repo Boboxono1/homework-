@@ -1,0 +1,31 @@
+"""1-SAVOL"""
+class user:
+    def __init__(self,Foydalanuvchi, ism , familya, emil, nomer):
+        self.Foydalanuvchi = Foydalanuvchi
+        self.ism = ism
+        self.familya = familya
+        self.email = emil
+        self.nomer = nomer
+
+"""2-SAVOL"""
+
+    def Foydalanuvchi(self):
+        return self.Foydalanuvchi
+    def Ism(self):
+        return self.ism
+    def Familya(self):
+        return self.familya
+    def email(self):
+        return self.email
+    def nomer(self):
+        pass
+shaxs = user("Boboxono1", 'husanboy', 'boboxonov', None, 93_745_85_15)
+print(f"Foydalanuvchi : {shaxs.Foydalanuvchi}\nIsm :{shaxs.ism}\nFamily:{shaxs.familya}\nEmail:{shaxs.email}\nNomer:{shaxs.nomer}")
+
+"""3-SAVOL"""
+
+ def get_info(self):
+        info = f"Foydalanuvchi : {shaxs.Foydalanuvchi} , Ism :{shaxs.ism} , Family:{shaxs.familya} , Email:{shaxs.email} , Nomer:{shaxs.nomer}"
+        return info
+shaxs = user("Boboxono1", 'husanboy', 'boboxonov', None, 93_745_85_15)
+print(shaxs.get_info())
